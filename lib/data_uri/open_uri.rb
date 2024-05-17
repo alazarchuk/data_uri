@@ -1,6 +1,4 @@
-module URI
-
-  class Data
+  class DataURI
 
     def open
       io = StringIO.new(data)
@@ -18,5 +16,3 @@ module URI
     end
 
   end
-
-end
