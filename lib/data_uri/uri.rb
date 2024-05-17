@@ -1,4 +1,4 @@
-module URI
+module DataURI
 
   class Data < Generic
 
@@ -60,7 +60,4 @@ module URI
       new('data', nil, nil, nil, nil, nil, "#{content_type};base64,#{Base64.encode64(data.read).chop}", nil, nil)
     end
   end
-
-  @@schemes['DATA'] = Data
-
 end
