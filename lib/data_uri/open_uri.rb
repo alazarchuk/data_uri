@@ -1,4 +1,5 @@
-  class DataURI
+module DataURI
+  class Data
 
     def open
       io = StringIO.new(data)
